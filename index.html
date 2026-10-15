@@ -425,6 +425,16 @@ fit();if('ResizeObserver' in window)new ResizeObserver(fit).observe(host);else a
 if(R)return;
 if('IntersectionObserver' in window){new IntersectionObserver(function(e){var v=e[0].isIntersecting;if(v&&!on){on=true;last=performance.now();requestAnimationFrame(fr)}else if(!v){on=false}}).observe(host)}else{on=true;requestAnimationFrame(fr)}
 })();
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18504034861"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18504034861');
+</script>
+
 </script>
 </body>
 </html>
